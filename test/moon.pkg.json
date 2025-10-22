@@ -1,5 +1,5 @@
 {
-  "is-main": true,
+  "is_main": false,
   "import": [
     {
       "path": "username/moonbit_fse/src",
@@ -7,3 +7,4 @@
     }
   ]
 }
+

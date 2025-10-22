@@ -24,21 +24,21 @@
 
 ## 使用示例
 
-```moonbit
+```moonbit no-check
 // 自动选择最佳压缩方法
 let data = "Hello, World!".to_bytes()
-let result = auto_compress_simple(data)
+let result = @username/moonbit_fse/src.auto_compress_simple(data)
 println("压缩比: " + result.ratio.to_string())
 
 // 使用指定方法压缩
-let huffman_result = simple_huffman_compress(data)
-let fse_result = simple_fse_compress(data)
+let huffman_result = @username/moonbit_fse/src.simple_huffman_compress(data)
+let fse_result = @username/moonbit_fse/src.simple_fse_compress(data)
 
 // 智能解压缩
-let decompressed = smart_decompress_simple(compressed_data)
+let decompressed = @username/moonbit_fse/src.smart_decompress_simple(fse_result)
 
 // 数据特征分析
-let analysis = analyze_data_simple(data)
+let analysis = @username/moonbit_fse/src.analyze_data_simple(data)
 println(analysis)
 ```
 
