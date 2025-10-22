@@ -1,0 +1,9 @@
+{
+  "name": "username/moonbit_fse",
+  "version": "0.1.0",
+  "readme": "README.mbt.md",
+  "repository": "",
+  "license": "Apache-2.0",
+  "keywords": ["fse", "huffman", "entropy", "compression", "decompression"],
+  "description": "A pure Moonbit implementation of Finite State Entropy (FSE) and Huffman coding algorithms"
+}
