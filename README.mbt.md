@@ -29,6 +29,7 @@
 let data = "Hello, World!".to_bytes()
 let result = @username/moonbit_fse/src.auto_compress_simple(data)
 println("压缩比: " + result.ratio.to_string())
+println("选择的算法: " + result.algorithm)
 
 // 使用指定方法压缩
 let huffman_result = @username/moonbit_fse/src.simple_huffman_compress(data)
